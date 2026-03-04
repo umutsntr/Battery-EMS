@@ -1,0 +1,49 @@
+2. Projeyi Bilgisayarına Çekme (Clone)
+
+Terminali (veya Git Bash) aç ve projeyi hangi klasöre indirmek istiyorsan oraya git (cd komutuyla). 
+(istedigin konumda bir klasör olusturup bu dosyada terminal ac da diyebilirsin)
+
+Sonra şu komutu yaz:
+
+git clone https://github.com/umutsntr/Battery-EMS.git
+
+Bu komutla projenin tüm dosyaları bilgisayarında bir klasör olarak oluşacak.
+
+3. Git Kimlik Ayarları
+Eğer daha önce yapmadıysan, attığın kodların senin adınla görünmesi için şu ayarları yapmalısın:
+
+git config --global user.name "Adın Soyadın"
+git config --global user.email "github-epostan@example.com"
+
+4. GitHub Şifre Hatasını Aşma (Token Tanımlama)
+Kod göndermeye çalıştığında GitHub senden şifre isteyecek ama normal şifreni kabul etmeyecek.
+
+GitHub'da Settings > Developer Settings > Tokens (classic) kısmından bir token oluştur. (Repo Settingsinden degil Githubin kendi settingsinden en sagda yukarida)
+
+Terminal şifre sorduğunda bu token'ı yapıştır.
+
+Bir kez yapıp kurtulmak için:
+
+Bash
+git config --global credential.helper store
+
+5. Calisma Rehberi
+
+Adım A: Çalışmaya Başlamadan Önce (Güncelleme)
+Benim yaptığım değişiklikleri kendi bilgisayarına almak için:
+
+Bash
+git pull origin main
+Adım B: Kod Yazımı
+Kodlarını yaz, dosyalarını düzenle.
+
+Adım C: Yaptıklarını Kaydet ve Gönder
+Bash
+# 1. Değişiklikleri seç
+git add .
+
+# 2. Ne yaptığını açıkla (İngilizce veya Türkçe kısa bir not)
+git commit -m "feat: batarya sensör okuma fonksiyonu eklendi"
+
+# 3. GitHub'a fırlat
+git push origin main
