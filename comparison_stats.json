@@ -1,0 +1,26 @@
+{
+  "test_period_days": 90.0,
+  "original_peak_kw": 14698.581651436769,
+  "basic": {
+    "peak_kw": 13967.572075576096,
+    "reduction_kw": 731.0095758606731,
+    "reduction_pct": 4.973334116147307,
+    "threshold_kw": 11075.934810333,
+    "soh_final": 0.9817631700038606,
+    "total_cycles": 107.27547056552606
+  },
+  "upls": {
+    "peak_kw": 13949.40666023308,
+    "reduction_kw": 749.1749912036885,
+    "reduction_pct": 5.096920294554118,
+    "avg_threshold_kw": 10782.169816372423,
+    "soh_final": 0.9862198165031086,
+    "total_cycles": 81.05990292289046,
+    "peak_events": 1370,
+    "success_rate": 95.98540145985402
+  },
+  "improvement": {
+    "absolute_kw": 18.16541534301541,
+    "percentage_points": 0.12358617840681063
+  }
+}

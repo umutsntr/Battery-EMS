@@ -1,0 +1,26 @@
+{
+  "battery": {
+    "capacity_kwh": 1500,
+    "power_kw": 750,
+    "efficiency": 0.95,
+    "min_soc": 0.1,
+    "max_soc": 0.9,
+    "initial_soc": 0.5,
+    "degradation_rate_per_cycle": 0.00017,
+    "capex_usd_per_kwh": 350,
+    "opex_pct_of_capex": 0.02
+  },
+  "simulation": {
+    "interval_minutes": 15,
+    "lookahead_hours": 4,
+    "peak_threshold_strategy": "dynamic",
+    "peak_threshold_percentile": 80,
+    "peak_threshold_fixed_kw": 9000
+  },
+  "financial": {
+    "analysis_years": 10,
+    "discount_rate": 0.2,
+    "electricity_price_increase_rate": 0.07,
+    "currency": "TRY"
+  }
+}

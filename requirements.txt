@@ -1,0 +1,14 @@
+# EMS Peak Shaving - Gerekli Paketler
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+plotly>=5.14.0
+scikit-learn>=1.3.0
+scipy>=1.11.0
+streamlit>=1.28.0
+pymodbus>=3.5.0
+paho-mqtt>=1.6.1
+
+# Opsiyonel (ML için)
+xgboost>=2.0.0
+prophet>=1.1.0
