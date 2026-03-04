@@ -5,7 +5,7 @@ Terminali (veya Git Bash) aç ve projeyi hangi klasöre indirmek istiyorsan oray
 
 Sonra şu komutu yaz:
 
-git clone https://github.com/umutsntr/Battery-EMS.git
+git clone https://github.com/umutsntr/Battery-EMS
 
 Bu komutla projenin tüm dosyaları bilgisayarında bir klasör olarak oluşacak.
 
