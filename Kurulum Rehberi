@@ -1,7 +1,7 @@
 2. Projeyi Bilgisayarına Çekme (Clone)
 
 Terminali (veya Git Bash) aç ve projeyi hangi klasöre indirmek istiyorsan oraya git (cd komutuyla). 
-(istedigin konumda bir klasör olusturup bu dosyada terminal ac da diyebilirsin)
+(istedigin konumda bir klasör olusturup bu ustune sag tiklayip dosyada terminal ac da diyebilirsin)
 
 Sonra şu komutu yaz:
 
